@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skinspect</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html">Skinspect</a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Homepage</a>
+                </li>
+                <li class="nav-item">
+                    <a href="check-skin.html" class="nav-link">Check Your Skin</a>
+                </li>
+                <li class="nav-item">
+                    <a href="risk.html" class="nav-link">Check Your Risk</a>
+                </li>
+            </ul>
+            <div class="nav-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <main class="content">
+        <section class="hero-section">
+            <div class="hero-image">
+                <img src="./assets/hero.jpg" alt="Skin examination with magnifying glass" />
+            </div>
+            <div class="hero-content">
+                <p class="hero-subtitle">Gain Clarity</p>
+                <p class="hero-title">Free Skin Cancer Prediction</p>
+                <p class="hero-description">Concerned about a specific mole? Get an instant AI analysis by uploading a photo.</p>
+                <div class="hero-buttons">
+                    <a href="check-skin.html">
+                        <button class="hero-btn btn-primary">Check Your Skin</button>
+                    </a>
+                    <a href="risk.html">
+                        <button class="hero-btn btn-secondary">Assess Your Risk</button>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="stats-section">
+            <h2 class="stats-title">Skin Cancer <span class="title-highlight">Malignant Melanoma</span></h2>
+            <div class="stats-container">
+                <div class="stat-card-group">
+                    <div class="stat-card">
+                        <p class="stat-label">An estimated</p>
+                        <p class="stat-number">+10</p>
+                        <p class="stat-description">people in Indonesia die from skin cancer every day.</p>
+                    </div>
+                    <div class="stat-card card-short">
+                        <p class="stat-number">1.716++</p>
+                        <p class="stat-description">New cases of melanoma annually in Indonesia.</p>
+                    </div>
+                </div>
+                <div class="stat-card-text">
+                    <p class="stat-description-highlight">The high fatality rate is directly linked to <strong>delayed diagnosis</strong>, making <strong>early detection</strong> crucial for survival.</p>
+                </div>
+                <div class="stat-card-group">
+                    <div class="stat-card card-short">
+                        <p class="stat-number">77.8%</p>
+                        <p class="stat-description">Melanoma patients in Indonesia being diagnosed at an advanced stage.</p>
+                    </div>
+                    <div class="stat-card">
+                        <p class="stat-label">Over</p>
+                        <p class="stat-number">57%</p>
+                        <p class="stat-description">of melanoma diagnoses in Indonesia result in death.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="spot-cancer-section">
+            <div class="spot-cancer-container">
+                <div class="spot-cancer-image">
+                    <div class="doctor-frame">
+                        <div class="doctor-frame2"></div>
+                        <img src="./assets/doctor.png" alt="Doctor" />
+                    </div>
+                </div>
+                <div class="spot-cancer-content">
+                    <h2 class="spot-cancer-title">
+                        <span class="title-normal">How to</span> <span class="title-highlight">Spot</span> <span class="title-normal">A Skin Cancer?</span>
+                    </h2>
+                    <p class="spot-cancer-intro">The ABCDE guide helps you recognize melanoma's warning signs.</p>
+                    <ul class="abcde-list">
+                        <li class="abcde-item">
+                            <span class="abcde-letter">A</span>
+                            <div class="abcde-content">
+                                <strong>Asymmetry:</strong> One half of the mole does not match the other half.
+                            </div>
+                        </li>
+                        <li class="abcde-item">
+                            <span class="abcde-letter">B</span>
+                            <div class="abcde-content">
+                                <strong>Border:</strong> irregular, notched, or blurred.
+                            </div>
+                        </li>
+                        <li class="abcde-item">
+                            <span class="abcde-letter">C</span>
+                            <div class="abcde-content">
+                                <strong>Color:</strong> uneven, with multiple shades of brown, black, or even patches of red, white, or blue.
+                            </div>
+                        </li>
+                        <li class="abcde-item">
+                            <span class="abcde-letter">D</span>
+                            <div class="abcde-content">
+                                <strong>Diameter or Dark:</strong> larger than 6mm or is noticeably darker than your other moles.
+                            </div>
+                        </li>
+                        <li class="abcde-item">
+                            <span class="abcde-letter">E</span>
+                            <div class="abcde-content">
+                                <strong>Evolving:</strong> changes over time in size, shape, color, or develops new symptoms like itching or bleeding.
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="carousel-section">
+            <div class="carousel-container">
+                <button class="carousel-btn carousel-prev" id="carouselPrev"><</button>
+                <div class="carousel-wrapper">
+                    <div class="carousel-track" id="carouselTrack">
+                        <div class="carousel-slide">
+                            <div class="carousel-image-frame">
+                                <img src="./assets/mole1.jpg" alt="Skin lesion 1" />
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <div class="carousel-image-frame">
+                                <img src="./assets/mole2.jpg" alt="Skin lesion 2" />
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <div class="carousel-image-frame">
+                                <img src="./assets/mole3.jpg" alt="Skin lesion 3" />
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <div class="carousel-image-frame">
+                                <img src="./assets/mole4.jpg" alt="Skin lesion 4" />
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <div class="carousel-image-frame">
+                                <img src="./assets/mole5.jpg" alt="Skin lesion 5" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-btn carousel-next" id="carouselNext">></button>
+            </div>
+        </section>
+
+        <section class="early-detection-section">
+            <div class="early-detection-container">
+                <p class="early-detection-text">
+                    "The 5-year survival rate is <strong>98%</strong> for patients whose melanoma is detected while it is still localized (has not spread). This includes stages 0, I and II, where the cancer is confined to the skin."
+                </p>
+                <p class="early-detection-attribution">by Melanoma Research Alliance (MRA).</p>
+                <h2 class="early-detection-heading"><span class="title-highlight">Early Detection</span> Can Save Your Life</h2>
+                <a href="check-skin.html" class="risk-btn">Check Your Skin Here!</a>
+            </div>
+        </section>
+
+        <section class="risk-section">
+            <div class="risk-container">
+                <div class="risk-content">
+                    <div class="risk-text">
+                        <h2>
+                            Are You At <span class="risk-highlight">Risk</span> for Skin Cancer?
+                        </h2>
+
+                        <p>
+                            Most of us know sun protection is crucial, but <strong>what about other factors?</strong>
+                            Your history of sun exposure, daily habits, and even family 
+                            genetics all play a role in your potential risk.
+                            <strong>Understanding your personal risk</strong> profile is the first step towards
+                            <strong>effective prevention and early detection.</strong>
+                        </p>
+
+                        <a href="risk.html" class="risk-btn">Assess Your Risk Now!</a>
+                    </div>
+                    <div class="spot-cancer-image">
+                        <div class="doctor-frame">
+                            <div class="doctor-frame2"></div>
+                            <img src="./assets/senior.png" alt="Doctor examining patient">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <p class="footer-copyright">© Copyright 2025 Skin Cancer Prediction Skinspect, ALL RIGHTS RESERVED</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

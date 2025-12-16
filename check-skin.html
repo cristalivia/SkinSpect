@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skinspect</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html">Skinspect</a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Homepage</a>
+                </li>
+                <li class="nav-item">
+                    <a href="check-skin.html" class="nav-link">Check Your Skin</a>
+                </li>
+                <li class="nav-item">
+                    <a href="risk.html" class="nav-link">Check Your Risk</a>
+                </li>
+            </ul>
+            <div class="nav-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero check-skin-hero">
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <h1>Get an <span class="accent">Instant AI Check</span><br>of Your Skin.</h1>
+                    <p>Concerned about a specific mole or skin spot? Our AI tool analyzes your photo for potential signs of malignancy. Simply launch the analyzer, upload a clear image, and receive an immediate, confidential assessment.</p>
+                    <a href="https://skinspect-resnet-model-deployment-skin-cancer-prediction-sons3.streamlit.app/" class="checkskin-page-btn">Analyze a Photo Now!</a>
+                    <p class="disclaimer">*This AI analysis <strong>is not a medical diagnosis</strong>. Always consult a certified dermatologist for health concerns.</p>
+                </div>
+                <div class="check-hero-image">
+                    <div class="phone-mockup">
+                        <div class="phone-screen">
+                            <p class="scan-text">Scan Using Your<br>Phone's Camera</p>
+                            <img src="./assets/qr1.png" alt="QR Code" class="qr-code">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <p class="footer-copyright">© Copyright 2025 Skin Cancer Prediction Skinspect, ALL RIGHTS RESERVED</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
