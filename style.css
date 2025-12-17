@@ -727,6 +727,14 @@ main {
     box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
 }
 
+.disclaimer {
+    font-size: 0.75rem;
+    color: #6C7A89;
+    margin-top: 16px;
+    line-height: 1.4;
+    max-width: 480px;
+}
+
 /* Phone Mockup */
 .phone-mockup {
   background: linear-gradient(145deg, #2d3748, #2F4157);
